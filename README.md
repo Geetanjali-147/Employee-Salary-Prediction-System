@@ -8,15 +8,15 @@ This system uses:
 ✅ Frontend: React (Vite) for a fast and interactive UI
 ✅ Machine Learning Model: Linear Regression (can be upgraded to Random Forest/XGBoost)
 
-🚀 Features
+🚀 Features -->
 
-Predict employee salary based on years of experience and education level
-Fast frontend built with Vite + React
-Flask API serving predictions using a trained ML model
-Simple and user-friendly interface
-Easily extendable to include more features (like job role, location, etc.)
+1. Predict employee salary based on years of experience and education level.
+2. Fast frontend built with Vite + React
+3. Flask API serving predictions using a trained ML model
+4. Simple and user-friendly interface
+5. Easily extendable to include more features (like job role, location, etc.)
 
-📂 Project Structure
+📂 Project Structure -->
 
 salary-prediction-system/
 │
@@ -33,36 +33,26 @@ salary-prediction-system/
 │
 └── README.md                   # Project documentation
 
-🛠️ Requirements
+🛠️ Requirements -->
 
-Backend (Python)
-Python 3.8+
-Flask
-Flask-CORS
-scikit-learn
-pandas
-pickle-mixin
-Frontend (Node.js)
-Node.js 16+
-Vite
-React
+1. Backend (Python)
+2. Python 3.8+
+3. Flask
+4.Flask-CORS
+5. scikit-learn
+6. pandas
+7. pickle-mixin
+8. Frontend (Node.js)
+9. Node.js 16+
+10. Vite
+11. React
 
-🌐 How It Works
-User enters years of experience and education level in the frontend UI.
-Frontend sends a POST request to Flask API.
-Flask API uses the trained ML model to predict salary.
-Predicted salary is displayed instantly on the frontend.
+🌐 How It Works -->
+1.User enters years of experience and education level in the frontend UI.
+2. Frontend sends a POST request to Flask API.
+3. Flask API uses the trained ML model to predict salary.
+4. Predicted salary is displayed instantly on the frontend.
 
-🔮 Example Prediction
-Experience (Years)	Education Level	Predicted Salary (₹)
-5	Bachelors	₹6,50,000
-10	Masters	₹12,00,000
-15	PhD	₹18,50,000
 
-📈 Future Improvements
-Add more features: job role, location, skillset
-Use advanced ML models (Random Forest, XGBoost, Neural Networks)
-Deploy on cloud (Heroku, AWS, or Netlify)
-Add authentication for HR access
 
 
