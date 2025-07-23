@@ -47,24 +47,6 @@ Node.js 16+
 Vite
 React
 
-📦 Installation and Setup
-
-1️⃣ Clone the Repository
-git clone https://github.com/yourusername/salary-prediction-system.git
-cd salary-prediction-system
-
-2️⃣ Backend Setup
-cd backend
-pip install -r requirements.txt
-python app.py
-This will start the Flask API at: http://127.0.0.1:5000
-
-3️⃣ Frontend Setup
-cd ../frontend
-npm install
-npm run dev
-This will start the Vite React frontend at: http://localhost:5173
-
 🌐 How It Works
 User enters years of experience and education level in the frontend UI.
 Frontend sends a POST request to Flask API.
