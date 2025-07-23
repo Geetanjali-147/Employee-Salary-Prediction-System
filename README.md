@@ -52,10 +52,10 @@ salary-prediction-system/
 1.User enters years of experience and education level in the frontend UI.
 
 2. Frontend sends a POST request to Flask API.
-3. 
-4. Flask API uses the trained ML model to predict salary.
-5. 
-6. Predicted salary is displayed instantly on the frontend.
+ 
+3. Flask API uses the trained ML model to predict salary.
+ 
+4. Predicted salary is displayed instantly on the frontend.
 
 
 
